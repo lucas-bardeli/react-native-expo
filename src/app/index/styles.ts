@@ -1,0 +1,11 @@
+import { colors } from "@/src/styles/colors";
+import { StyleSheet } from "react-native";
+
+export const styles = StyleSheet.create({
+  containter: {
+    flex: 1,
+    justifyContent: "center",
+    alignItems: "center",
+  },
+  title: { color: colors.green[900], fontSize: 22 },
+});
