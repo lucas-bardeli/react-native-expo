@@ -1,5 +1,6 @@
 import { Categories } from "@/components/categories";
 import { Link } from "@/components/link";
+import { Option } from "@/components/option";
 import { colors } from "@/styles/colors";
 import { MaterialIcons } from "@expo/vector-icons";
 import {
@@ -56,6 +57,11 @@ export default function Index() {
 
             <Text style={styles.modalLinkName}>Rocketseat</Text>
             <Text style={styles.modalUrl}>https://app.rocketseat.com.br/</Text>
+
+            <View style={styles.modalFooter}>
+              <Option name="Abrir" icon="open-in-new" />
+              <Option name="Excluir" icon="delete" variant="secondary" />
+            </View>
           </View>
         </View>
       </Modal>
