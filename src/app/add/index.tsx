@@ -1,4 +1,6 @@
+import { Button } from "@/components/button";
 import { Categories } from "@/components/categories";
+import { Input } from "@/components/input";
 import { colors } from "@/styles/colors";
 import { MaterialIcons } from "@expo/vector-icons";
 import { router } from "expo-router";
@@ -7,7 +9,7 @@ import { styles } from "./styles";
 
 export default function Add() {
   return (
-    <View style={styles.containter}>
+    <View style={styles.container}>
       <View style={styles.header}>
         <TouchableOpacity onPress={() => router.back()}>
           <MaterialIcons name="arrow-back" size={32} color={colors.gray[200]} />
@@ -18,6 +20,12 @@ export default function Add() {
 
       <Text style={styles.label}>Selecione uma categoria</Text>
       <Categories />
+
+      <View style={styles.form}>
+        <Input placeholder="Nome" onChangeText={console.log} />
+        <Input placeholder="URL" />
+        <Button title="Adicionar" />
+      </View>
     </View>
   );
 }

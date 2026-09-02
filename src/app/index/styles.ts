@@ -2,7 +2,7 @@ import { colors } from "@/styles/colors";
 import { StyleSheet } from "react-native";
 
 export const styles = StyleSheet.create({
-  containter: {
+  container: {
     flex: 1,
     paddingTop: 62,
   },
