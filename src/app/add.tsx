@@ -1,12 +1,12 @@
 import { Button } from "@/components/button";
 import { Categories } from "@/components/categories";
 import { Input } from "@/components/input";
+import { styles } from "@/styles/add";
 import { colors } from "@/styles/colors";
 import { MaterialIcons } from "@expo/vector-icons";
 import { router } from "expo-router";
 import { useState } from "react";
 import { Alert, Text, TouchableOpacity, View } from "react-native";
-import { styles } from "./styles";
 
 export default function Add() {
   const [category, setCategory] = useState("");

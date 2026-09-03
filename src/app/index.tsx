@@ -2,6 +2,7 @@ import { Categories } from "@/components/categories";
 import { Link } from "@/components/link";
 import { Option } from "@/components/option";
 import { colors } from "@/styles/colors";
+import { styles } from "@/styles/index";
 import { categories } from "@/utils/categories";
 import { MaterialIcons } from "@expo/vector-icons";
 import { router } from "expo-router";
@@ -14,7 +15,6 @@ import {
   TouchableOpacity,
   View,
 } from "react-native";
-import { styles } from "./styles";
 
 export default function Index() {
   const [category, setCategory] = useState(categories[0].name);
