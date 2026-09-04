@@ -6,8 +6,8 @@ import { colors } from "@/styles/colors";
 import { styles } from "@/styles/index";
 import { categories } from "@/utils/categories";
 import { MaterialIcons } from "@expo/vector-icons";
-import { router } from "expo-router";
-import { useEffect, useState } from "react";
+import { router, useFocusEffect } from "expo-router";
+import { useCallback, useState } from "react";
 import {
   Alert,
   FlatList,
@@ -25,15 +25,18 @@ export default function Index() {
   async function getLinks() {
     try {
       const response = await linkStorage.get();
-      setLinks(response);
+      const filtered = response.filter((link) => link.category === category);
+      setLinks(filtered);
     } catch (error) {
       Alert.alert("Erro", "Não foi possível listar os links.");
     }
   }
 
-  useEffect(() => {
-    getLinks();
-  }, [category]);
+  useFocusEffect(
+    useCallback(() => {
+      getLinks();
+    }, [category]),
+  );
 
   return (
     <View style={styles.container}>
