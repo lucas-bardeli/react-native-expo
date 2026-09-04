@@ -3,9 +3,9 @@
 <h1>🔗 React Native com Expo</h1>
 <p>Um app mobile para organizar seus links por categoria, feito com React Native e Expo.</p>
 <p>
-	<img src="https://img.shields.io/badge/Expo-54.0-000020?logo=expo&logoColor=000067" alt="Expo 54" />
-	<img src="https://img.shields.io/badge/React_Native-0.81-61DAFB?logo=react&logoColor=61DAFB" alt="React Native 0.81" />
-	<img src="https://img.shields.io/badge/TypeScript-5.9-3178C6?logo=typescript&logoColor=3178C6" alt="TypeScript 5.9" />
+	<img src="https://img.shields.io/badge/Expo-57.0-000020?logo=expo&logoColor=000067" alt="Expo 57" />
+	<img src="https://img.shields.io/badge/React_Native-0.86-61DAFB?logo=react&logoColor=61DAFB" alt="React Native 0.86" />
+	<img src="https://img.shields.io/badge/TypeScript-6.0-3178C6?logo=typescript&logoColor=3178C6" alt="TypeScript 6.0" />
 </p>
 
 ## ✨ Funcionalidades
