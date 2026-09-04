@@ -1,19 +1,14 @@
-<table>
-	<tr>
-		<td width="180" align="center">
-			<img src="assets/images/icon.png" alt="Logo do Links" width="140" />
-		</td>
-		<td>
-			<h1>🔗 React Native com Expo</h1>
-			<p>Um app mobile para organizar seus links por categoria, feito com React Native e Expo.</p>
-			<p>
-				<img src="https://img.shields.io/badge/Expo-54.0-000020?logo=expo&logoColor=000067" alt="Expo 54" />
-				<img src="https://img.shields.io/badge/React_Native-0.81-61DAFB?logo=react&logoColor=61DAFB" alt="React Native 0.81" />
-				<img src="https://img.shields.io/badge/TypeScript-5.9-3178C6?logo=typescript&logoColor=3178C6" alt="TypeScript 5.9" />
-			</p>
-		</td>
-	</tr>
-</table>
+<img align="left" src="assets/images/icon.png" alt="Logo do Links" width="140" hspace="20" />
+
+<h1>🔗 React Native com Expo</h1>
+<p>Um app mobile para organizar seus links por categoria, feito com React Native e Expo.</p>
+<p>
+	<img src="https://img.shields.io/badge/Expo-54.0-000020?logo=expo&logoColor=000067" alt="Expo 54" />
+	<img src="https://img.shields.io/badge/React_Native-0.81-61DAFB?logo=react&logoColor=61DAFB" alt="React Native 0.81" />
+	<img src="https://img.shields.io/badge/TypeScript-5.9-3178C6?logo=typescript&logoColor=3178C6" alt="TypeScript 5.9" />
+</p>
+
+<br clear="left" />
 
 ## ✨ Funcionalidades
 
